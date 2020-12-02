@@ -1,0 +1,253 @@
+* {
+    background-color: #7F8182;
+}
+
+#title {
+    font-size: 45px;
+    text-align: center;
+    padding-top: 30px;
+}
+
+/* Layout */
+.main {
+    padding: 10px;
+    height: 90vh;
+    margin-left: 6.5%;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Exo', sans-serif;
+    color: white;
+}
+
+h2 {
+    font-family: 'Exo', sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+/* Los Angles Time */
+.clockbox {
+    float: left;
+}
+
+#clock {
+    width: 100%;
+    /* align-content: center; */
+    /* padding-top: 60px; */
+}
+
+/* Clock styles */
+.circle {
+    fill: white;
+    stroke: black;
+    stroke-width: 9;
+    stroke-miterlimit: 10;
+}
+
+.mid-circle {
+    fill: black;
+}
+.hour-marks {
+    fill: none;
+    stroke: #000;
+    stroke-width: 9;
+    stroke-miterlimit: 10;
+}
+
+.hour-arm {
+    fill: none;
+    stroke: #000;
+    stroke-width: 17;
+    stroke-miterlimit: 10;
+}
+
+.minute-arm {
+    fill: none;
+    stroke: #000;
+    stroke-width: 11;
+    stroke-miterlimit: 10;
+}
+
+.second-arm {
+    fill: none;
+    stroke: #000;
+    stroke-width: 4;
+    stroke-miterlimit: 10;
+}
+
+/* Transparent box ensuring arms center properly. */
+.sizing-box {
+    fill: none;
+}
+
+/* Make all arms rotate around the same center point. */
+/* Optional: Use transition for animation. */
+#hour,
+#minute,
+#second {
+    transform-origin: 300px 300px;
+    /* transition: transform .5s ease-in-out; */
+}
+
+/* New York Time */
+.newtime {
+    float: left;
+}
+
+.new-circle {
+    fill: white;
+    stroke: #000;
+    stroke-width: 9;
+    stroke-miterlimit: 10;
+}
+
+.new-mid-circle {
+    fill: #000;
+}
+.new-hour-marks {
+    fill: none;
+    stroke: #000;
+    stroke-width: 9;
+    stroke-miterlimit: 10;
+}
+
+.new-hour-arm {
+    fill: none;
+    stroke: #000;
+    stroke-width: 17;
+    stroke-miterlimit: 10;
+}
+
+.new-minute-arm {
+    fill: none;
+    stroke: #000;
+    stroke-width: 11;
+    stroke-miterlimit: 10;
+}
+
+.new-second-arm {
+    fill: none;
+    stroke: #000;
+    stroke-width: 4;
+    stroke-miterlimit: 10;
+}
+
+.new-sizing-box {
+    fill: none;
+}
+
+#nyhour,
+#nyminute,
+#nysecond {
+    transform-origin: 300px 300px;
+}
+
+/* Paris Time */
+.paris-time {
+    float: left;
+}
+
+.paris-circle {
+    fill: white;
+    stroke: #000;
+    stroke-width: 9;
+    stroke-miterlimit: 10;
+}
+
+.paris-mid-circle {
+    fill: #000;
+}
+.paris-hour-marks {
+    fill: none;
+    stroke: #000;
+    stroke-width: 9;
+    stroke-miterlimit: 10;
+}
+
+.paris-hour-arm {
+    fill: none;
+    stroke: #000;
+    stroke-width: 17;
+    stroke-miterlimit: 10;
+}
+
+.paris-minute-arm {
+    fill: none;
+    stroke: #000;
+    stroke-width: 11;
+    stroke-miterlimit: 10;
+}
+
+.paris-second-arm {
+    fill: none;
+    stroke: #000;
+    stroke-width: 4;
+    stroke-miterlimit: 10;
+}
+
+.paris-sizing-box {
+    fill: none;
+}
+
+#paris-hour,
+#paris-minute,
+#paris-second {
+    transform-origin: 300px 300px;
+}
+
+/* Seoul Time */
+.seoul-time {
+    float: left;
+}
+
+.seoul-circle {
+    fill: white;
+    stroke: #000;
+    stroke-width: 9;
+    stroke-miterlimit: 10;
+}
+
+.seoul-mid-circle {
+    fill: #000;
+}
+.seoul-hour-marks {
+    fill: none;
+    stroke: #000;
+    stroke-width: 9;
+    stroke-miterlimit: 10;
+}
+
+.seoul-hour-arm {
+    fill: none;
+    stroke: #000;
+    stroke-width: 17;
+    stroke-miterlimit: 10;
+}
+
+.seoul-minute-arm {
+    fill: none;
+    stroke: #000;
+    stroke-width: 11;
+    stroke-miterlimit: 10;
+}
+
+.seoul-second-arm {
+    fill: none;
+    stroke: #000;
+    stroke-width: 4;
+    stroke-miterlimit: 10;
+}
+
+.seoul-sizing-box {
+    fill: none;
+}
+
+#seoul-hour,
+#seoul-minute,
+#seoul-second {
+    transform-origin: 300px 300px;
+}
