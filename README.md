@@ -1,3 +1,5 @@
+https://compassionate-babbage-a915e6.netlify.app/
+
 This project was a follow along from Linkedin learning to better understand Javascript. It definitely helped to better understand DOM manipulation and SVG's. The course built the project up only to the point where the time of the user's browser was shown. Afterwards, I decided to implement CSS styling and the times of other locations across the globe based on UTC rather than just on currrent browser location. 
 
 The clocks' hands are accessed via DOM manipulation of the g element within the SVG's. They travel along a circular path that is defined in the HTML file and directed by the Javascript rotate method. The movement of the clocks' hands are determined by the arithmetic surrounding the 360 degrees of circles. The original product had setInterval methods calling the time functions every second. I changed it to have the function within the setIntervals so that way there'd be no need to call it.
